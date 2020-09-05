@@ -77,5 +77,15 @@ h1 {
     background-image: url('../imgs/amigo.png');
 }
 
+.anima1 {
+    background-image: url('../imgs/apache.png');
+    animation: play .5 steps(2) infinite;
+
+        -webkit-animation: play .5s steps(2) infinite;
+        -moz-animation: play .5 steps(2) infinite;
+        -ms-animation: play .5s steps(2) infinite;
+        -o-animation: play .5s steps(2) infinite;
+}
+
 
 
